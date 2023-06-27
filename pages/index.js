@@ -5,10 +5,8 @@ export default function Home() {
   const positionButton = useRef(null);
 
   function generatePositionButton() {
-    positionButton.current.style.top =
-      Math.random() * 720 + "px";
-    positionButton.current.style.left =
-      Math.random() * 1080 + "px";
+    positionButton.current.style.top = Math.random() * 720 + "px";
+    positionButton.current.style.left = Math.random() * 1080 + "px";
     positionButton.current.style.position = "absolute";
   }
 

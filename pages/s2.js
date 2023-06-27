@@ -21,7 +21,7 @@ export default function S2() {
           width={500}
           height={500}
         />
-        <h2 className="mt-5 ">Nunca desconfiei disso. s2</h2>
+        <h2 className="mt-5">Nunca desconfiei disso. s2</h2>
       </div>
     </>
   );
